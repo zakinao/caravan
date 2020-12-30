@@ -223,3 +223,55 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+
+  .blog-image {
+    width: 50%;
+  }
+
+  .blog-text {
+    width: 50%;
+  }
+
+  .instagram-box {
+    width: 40%;
+  }
+
+  .pagination {
+    margin-bottom: 30px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
